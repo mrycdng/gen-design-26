@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         hanifSpans.forEach(span => span.style.color = "darkslategrey");
         virginiaSpans.forEach(span => span.style.color = "lightblue");
+        
     });
 
 
