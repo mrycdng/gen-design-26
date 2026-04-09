@@ -1,0 +1,71 @@
+@font-face {
+    font-family: timezone;
+    src: url(./HALTimezone-Regular.ttf);
+    font-style:normal;
+}
+
+@font-face {
+    font-family: timezone;
+    src: url(./HALTimezone-RegularItalic.ttf);
+    font-style:italic;
+}
+
+body {
+    font-family:arial;
+    padding:20px;
+    padding-top:40px;
+    background-color:lightgrey;
+    color:dimgrey;
+}
+
+#info {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    font-size:.9rem;
+    text-transform:uppercase;
+    padding:15px;
+}
+
+#toggle {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    width:28vw;
+    margin:auto;
+
+}
+
+#virginia-button, #hanif-button {
+    all:unset;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    border:1px solid dimgrey;
+    padding:5px;
+    border-radius:3px;
+    font-size:.9rem;
+}
+
+h1, h2 {
+    text-align:center;
+    font-size:1rem;
+}
+
+h1 {
+    text-transform:uppercase;
+}
+h2 {
+    font-style:italic;
+}
+
+p {
+    font-size:2rem;
+    text-align:center;
+    width:72vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#main-text {
+    padding:0;
+    margin-top:0;
+}

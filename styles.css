@@ -1,0 +1,365 @@
+@font-face {
+    font-family: four-grotesk;
+    font-style: normal;
+    src: url(fonts/HALFourGrotesk-Regular.ttf);
+}
+
+@font-face {
+    font-family: four-grotesk;
+    font-style: italic;
+    src: url(fonts/HALFourGrotesk-RegularItalic.ttf);
+}
+
+@font-face {
+    font-family: blitz;
+    font-style: italic;
+    src: url(fonts/Blitz\ Script.otf);
+}
+
+
+body {
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    font-family: four-grotesk;
+    background-color:rgb(132, 132, 132);
+    color:palegreen;
+}
+
+#Marie {
+    font-family:serif;
+    font-size:2.5rem;
+}
+
+h1 {
+    font-weight:normal;
+    font-size: 2rem;
+    padding-top:.3rem;
+    padding-bottom:.3rem;
+    margin: 0rem;
+    
+}
+
+h2 {
+    margin-top:0rem;
+    font-weight:normal;
+    font-size: 1rem;
+    border-bottom: 1px solid palegreen;
+}
+
+.heading {
+    justify-content:center;
+    padding-top:.3rem;
+    padding-bottom:.3rem;
+    margin: 0rem;
+    border-bottom: 1px solid rgb(132, 132, 132);
+
+    color:rgb(132, 132, 132);
+    background-color:palegreen;
+    font-family:serif;
+    font-size: 2.5rem;
+
+}
+#about {
+    background-color:rgb(132, 132, 132);
+    color:palegreen;
+}
+#about:hover {
+    background-color:palegreen;
+    color:rgb(132, 132, 132);
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid palegreen;
+
+    margin: 0rem;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    font-size:2rem;
+    color: palegreen !important;
+}
+
+.row {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+    border-bottom: 1px solid palegreen;
+    padding:.3rem;
+    gap:1rem;
+}
+
+#title {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+    border-bottom: 1px solid palegreen;
+    padding:.3rem;
+    gap:1rem;
+
+}
+
+#row-link {
+    text-decoration:none;
+    font-family:four-grotesk;
+}
+
+.row:hover {
+    font-size:2rem;
+    line-height:2rem;
+    border-bottom-color:rgb(132, 132, 132);
+}
+
+.class {
+    flex:1.6;
+    text-align: left;
+}
+.number {
+    flex:.4;
+    text-align:left;
+}
+
+.title-label {
+    flex:4;
+    text-align:center;
+}
+
+.title {
+    flex:4;
+    text-align:center;
+    font-style: italic;
+}
+
+.description {
+    flex: 4;
+    text-align:right;
+}
+
+a {
+    text-decoration:none;
+    color:palegreen;
+}
+
+a:hover {
+    background-color:palegreen;
+    color:rgb(132, 132, 132);
+}
+
+.credit-links {
+    background-color:rgb(132, 132, 132);
+    color:palegreen;
+    text-decoration:underline;
+}
+#tiger:hover {
+    background-color:palegreen;
+    color:rgb(132, 132, 132);
+}
+
+
+/* css for about.html */
+
+#body2 {
+    background-color:palegreen;
+}
+
+#about-container {
+    background-color:rgb(132, 132, 132) !important;
+   
+    height:92vh;
+    position:relative;
+    top:4vh;
+
+    display:flex;
+    flex-direction:column;
+    gap:0px;
+}
+
+.about-rows {
+    display:flex;
+    flex-direction:row;
+}
+
+
+.rounded {
+    background-color:palegreen;
+    border: 1px solid rgb(132, 132, 132);
+    color:rgb(132, 132, 132);
+    padding:.5rem;
+    margin:0rem;
+}
+
+.rounded:hover {
+    border-radius: 1rem;
+    transition: .2s;
+}
+
+#about-row-1 {
+    flex:1;
+}
+
+
+#back {
+    flex:2;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+}
+
+#back:hover {
+    text-decoration:underline;
+}
+
+#about2 {
+    flex:8;
+    font-family:serif;
+    font-size:2.5rem;
+    border-left:0px;
+    margin:0rem;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    background-color:rgb(132, 132, 132);
+    color:palegreen;
+}
+#about2:hover {
+    border-radius:0rem;
+}
+
+#about-row-2 {
+    flex:2;
+}
+
+#bio {
+    flex:6;
+    padding-left:2rem;
+    padding-right:2rem;
+    border-top:0px;
+}
+
+#bio-h1 {
+    padding-bottom: 0rem;
+}
+
+#links {
+    flex:4;
+    border-left:0px;
+    border-top:0px;
+
+    display:flex;
+    flex-direction:column;
+}
+
+#instagram {
+    flex:1;
+    /* border-top:1px solid rgb(132, 132, 132); */
+    border-left:0px;
+    border-top:0px;
+    border-bottom:0px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+#instagram:hover {
+    text-decoration:underline;
+}
+
+#portfolio {
+    flex:1;
+    border-left:0px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+#portfolio:hover {
+    text-decoration:underline;
+}
+
+#web {
+    flex:1;
+    border-left:0px;
+    border-top:0px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+
+}
+
+#web:hover {
+    text-decoration:underline;
+}
+
+#about-row-3 {
+    flex:7;
+}
+
+#about-row-3-left {
+    flex:5;
+    display:flex;
+    flex-direction:column;
+}
+
+#goals {
+    border-top:0px;
+    border-bottom:0px;
+    flex:3;
+}
+
+#cat {
+    padding:0rem;
+    border-bottom:0px;
+    background-color:rgb(132, 132, 132);
+}
+
+#cat-caption {
+    background-color:rgb(132, 132, 132);
+    color:palegreen;
+}
+img {
+    width:100%;
+    height:100%;
+    border-radius:.9rem;
+    opacity:80%;
+}
+
+#favs {
+    flex:5;
+    border-top:0px;
+    border-left:0px;
+    /* list-style-position:inside; */
+}
+
+.lists {
+    text-align:left;
+}
+
+.resolutions {
+    text-decoration:none!important;
+}
+li:hover {
+    text-decoration:underline;
+}
+
+.fave-sh {
+    text-align:center;
+}
+
+.about-links {
+    color:rgb(132, 132, 132);
+}
+
+
+#credits {
+    font-size:.8rem;
+}
