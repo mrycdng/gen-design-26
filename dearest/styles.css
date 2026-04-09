@@ -43,6 +43,17 @@ body {
     padding:5px;
     border-radius:3px;
     font-size:.9rem;
+    cursor:grab;
+}
+
+#virginia-button:hover {
+    background:dimgrey;
+    color:lightgrey;
+}
+
+#hanif-button:hover {
+    background:dimgrey;
+    color:lightgrey;
 }
 
 h1, h2 {
