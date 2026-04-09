@@ -23,7 +23,7 @@ body {
     margin: auto;
     text-align: center;
     font-family: four-grotesk;
-    background-color:rgb(132, 132, 132);
+    background-color:dimgrey;
     color:palegreen;
 }
 
@@ -53,21 +53,21 @@ h2 {
     padding-top:.3rem;
     padding-bottom:.3rem;
     margin: 0rem;
-    border-bottom: 1px solid rgb(132, 132, 132);
+    border-bottom: 1px solid dimgrey;
 
-    color:rgb(132, 132, 132);
+    color:dimgrey;
     background-color:palegreen;
     font-family:serif;
     font-size: 2.5rem;
 
 }
 #about {
-    background-color:rgb(132, 132, 132);
+    background-color:dimgrey;
     color:palegreen;
 }
 #about:hover {
     background-color:palegreen;
-    color:rgb(132, 132, 132);
+    color:dimgrey;
 }
 
 .labels {
@@ -114,7 +114,7 @@ h2 {
 .row:hover {
     font-size:2rem;
     line-height:2rem;
-    border-bottom-color:rgb(132, 132, 132);
+    border-bottom-color:dimgrey;
 }
 
 .class {
@@ -149,17 +149,17 @@ a {
 
 a:hover {
     background-color:palegreen;
-    color:rgb(132, 132, 132);
+    color:dimgrey;
 }
 
 .credit-links {
-    background-color:rgb(132, 132, 132);
+    background-color:dimgrey;
     color:palegreen;
     text-decoration:underline;
 }
 #tiger:hover {
     background-color:palegreen;
-    color:rgb(132, 132, 132);
+    color:dimgrey;
 }
 
 
@@ -170,7 +170,7 @@ a:hover {
 }
 
 #about-container {
-    background-color:rgb(132, 132, 132) !important;
+    background-color:dimgrey !important;
    
     height:92vh;
     position:relative;
@@ -189,8 +189,8 @@ a:hover {
 
 .rounded {
     background-color:palegreen;
-    border: 1px solid rgb(132, 132, 132);
-    color:rgb(132, 132, 132);
+    border: 1px solid dimgrey;
+    color:dimgrey;
     padding:.5rem;
     margin:0rem;
 }
@@ -226,7 +226,7 @@ a:hover {
     display:flex;
     flex-direction:column;
     justify-content: space-around;
-    background-color:rgb(132, 132, 132);
+    background-color:dimgrey;
     color:palegreen;
 }
 #about2:hover {
@@ -259,7 +259,7 @@ a:hover {
 
 #instagram {
     flex:1;
-    /* border-top:1px solid rgb(132, 132, 132); */
+    /* border-top:1px solid dimgrey; */
     border-left:0px;
     border-top:0px;
     border-bottom:0px;
@@ -319,11 +319,11 @@ a:hover {
 #cat {
     padding:0rem;
     border-bottom:0px;
-    background-color:rgb(132, 132, 132);
+    background-color:dimgrey;
 }
 
 #cat-caption {
-    background-color:rgb(132, 132, 132);
+    background-color:dimgrey;
     color:palegreen;
 }
 img {
@@ -356,7 +356,7 @@ li:hover {
 }
 
 .about-links {
-    color:rgb(132, 132, 132);
+    color:dimgrey;
 }
 
 
